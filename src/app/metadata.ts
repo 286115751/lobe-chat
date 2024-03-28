@@ -6,7 +6,7 @@ import { OFFICIAL_URL } from '@/const/url';
 
 import pkg from '../../package.json';
 
-const title = 'LobeChat';
+const title = '逻辑盒AI';
 const { description, homepage } = pkg;
 
 const { SITE_URL = OFFICIAL_URL } = getServerConfig();
@@ -22,11 +22,9 @@ const metadata: Metadata = {
   },
   description,
   icons: {
-    apple:
-      'https://registry.npmmirror.com/@lobehub/assets-favicons/latest/files/assets/apple-touch-icon.png',
-    icon: 'https://registry.npmmirror.com/@lobehub/assets-favicons/latest/files/assets/favicon-32x32.png',
-    shortcut:
-      'https://registry.npmmirror.com/@lobehub/assets-favicons/latest/files/assets/favicon.ico',
+    apple: '//download4.qcplay.com/qcgame-api/IIIf1RRFpjzfLmm75WWIiKLSp97I7L7zmcbj6XU0.png',
+    icon: '//download4.qcplay.com/qcgame-api/IIIf1RRFpjzfLmm75WWIiKLSp97I7L7zmcbj6XU0.png',
+    shortcut: '//download4.qcplay.com/qcgame-api/IIIf1RRFpjzfLmm75WWIiKLSp97I7L7zmcbj6XU0.png',
   },
   manifest: noManifest ? undefined : '/manifest.json',
   metadataBase: new URL(SITE_URL),
@@ -55,7 +53,7 @@ const metadata: Metadata = {
 
   title: {
     default: title,
-    template: '%s · LobeChat',
+    template: '%s · 逻辑盒AI',
   },
   twitter: {
     card: 'summary_large_image',

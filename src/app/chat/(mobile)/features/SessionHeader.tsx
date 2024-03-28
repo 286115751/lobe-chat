@@ -33,7 +33,8 @@ const Header = memo(() => {
           <div onClick={() => router.push('/settings')}>
             {avatar ? <Avatar avatar={avatar} size={28} /> : <Logo size={28} />}
           </div>
-          <Logo type={'text'} />
+          {/* 移动端原头部logo */}
+          {/* <Logo type={'text'} /> */}
           <SyncStatusInspector placement={'bottom'} />
         </Flexbox>
       }

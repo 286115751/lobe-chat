@@ -37,9 +37,10 @@ const Banner = memo<{ mobile?: boolean }>(({ mobile }) => {
             router.push('/chat');
           }}
         >
-          <Button block={mobile} size={'large'}>
+          {/* // 导入配置隐藏 */}
+          {/* <Button block={mobile} size={'large'}>
             {t('button.import')}
-          </Button>
+          </Button> */}
         </DataImporter>
         <Button
           block={mobile}

@@ -1,12 +1,10 @@
-import dynamic from 'next/dynamic';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Flexbox } from 'react-layout-kit';
 
 import { genSize, useStyles } from './style';
 
-const LogoThree = dynamic(() => import('@lobehub/ui/es/LogoThree'));
-const LogoSpline = dynamic(() => import('@lobehub/ui/es/LogoThree/LogoSpline'));
+// const LogoThree = dynamic(() => import('@lobehub/ui/es/LogoThree'));
+// const LogoSpline = dynamic(() => import('@lobehub/ui/es/LogoThree/LogoSpline'));
 
 const Hero = memo<{ mobile?: boolean; width: number }>(({ width, mobile }) => {
   const size: any = {
@@ -25,7 +23,7 @@ const Hero = memo<{ mobile?: boolean; width: number }>(({ width, mobile }) => {
 
   return (
     <>
-      <Flexbox
+      {/* <Flexbox
         style={{
           height: size.logo,
           marginBottom: size.marginBottom,
@@ -34,9 +32,9 @@ const Hero = memo<{ mobile?: boolean; width: number }>(({ width, mobile }) => {
         }}
       >
         {mobile ? <LogoThree size={size.logo} /> : <LogoSpline height={'100%'} width={'100%'} />}
-      </Flexbox>
+      </Flexbox> */}
       <div className={styles.title} style={{ fontSize: size.title }}>
-        <strong style={mobile ? { fontSize: '1.2em' } : {}}>LobeChat</strong>
+        <strong style={mobile ? { fontSize: '1.2em' } : {}}>逻辑盒AI</strong>
         {mobile ? <br /> : ' '}
         {t('slogan.title')}
       </div>

@@ -10,7 +10,7 @@
   },
   "about": "Over",
   "advanceSettings": "Geavanceerde instellingen",
-  "appInitializing": "LobeChat wordt geïnitialiseerd, even geduld a.u.b...",
+  "appInitializing": "逻辑盒AI wordt geïnitialiseerd, even geduld a.u.b...",
   "autoGenerate": "Automatisch genereren",
   "autoGenerateTooltip": "Automatisch assistentbeschrijving genereren op basis van suggesties",
   "cancel": "Annuleren",
@@ -165,9 +165,9 @@
   "telemetry": {
     "allow": "Toestaan",
     "deny": "Weigeren",
-    "desc": "We willen graag anonieme gebruiksgegevens verzamelen om LobeChat te verbeteren en een betere productervaring te bieden. Je kunt dit op elk moment uitschakelen in 'Instellingen' - 'Over'.",
+    "desc": "We willen graag anonieme gebruiksgegevens verzamelen om 逻辑盒AI te verbeteren en een betere productervaring te bieden. Je kunt dit op elk moment uitschakelen in 'Instellingen' - 'Over'.",
     "learnMore": "Meer informatie",
-    "title": "Help LobeChat verbeteren"
+    "title": "Help 逻辑盒AI verbeteren"
   },
   "temp": "临时",
   "updateAgent": "更新助理信息",
