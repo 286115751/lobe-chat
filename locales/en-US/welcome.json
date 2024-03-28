@@ -1,14 +1,14 @@
 {
   "button": {
-    "import": "Import Configuration",
-    "start": "Start Now"
+    "import": "导入配置",
+    "start": "前往使用"
   },
-  "header": "Welcome",
-  "pickAgent": "Or choose from the following agent templates",
-  "skip": "Skip Creation",
+  "header": "欢迎你",
+  "pickAgent": "或者从以下代理模板中进行选择",
+  "skip": "跳过创建",
   "slogan": {
-    "desc1": "Pioneering the new age of thinking and creating. Built for you, the Super Individual.",
-    "desc2": "Create your first agent and let's get started~",
-    "title": "Unlock the superpower of your brain"
+    "desc1": "逻辑盒AI,欢迎你",
+    "desc2": "欢迎使用,逻辑盒AI",
+    "title": "逻辑盒AI实验室"
   }
 }
